@@ -1,0 +1,59 @@
+/*goal 부분*/
+#second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 6rem;
+  }
+
+.contents {
+    height: 40vh;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.goal-contain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.goal-span {
+    font-size: 4rem;
+    font-weight: bold;
+    padding-right: 3rem;
+    margin-right: 1rem;
+    color: rgb(65 66 65);
+}
+
+.goal-list {
+    padding: 0;
+    padding-left: 3rem;
+    list-style: none;
+    border-left: #f8b605 solid 3px;
+    color: rgb(65 66 65);
+}
+
+.goal-list li {
+    font-size: 1.5rem;
+    margin: 10px 0;
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
