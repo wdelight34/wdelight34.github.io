@@ -24,6 +24,12 @@ section .top .text1 {
 
 section .top .text2 {
   margin-top: 3rem;
+  font-size: 4rem;
+  font-weight:450;
+}
+
+section .top .text3 {
+  margin-top: 2rem;
   font-size: 3rem;
   font-weight:450;
   font-style: italic;
